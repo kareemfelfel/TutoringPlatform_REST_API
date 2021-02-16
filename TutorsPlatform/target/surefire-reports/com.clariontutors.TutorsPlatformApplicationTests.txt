@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.clariontutors.TutorsPlatformApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.066 s - in com.clariontutors.TutorsPlatformApplicationTests

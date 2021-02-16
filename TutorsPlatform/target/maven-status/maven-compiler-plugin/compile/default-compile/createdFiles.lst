@@ -1,0 +1,12 @@
+com\clariontutors\users\user.class
+com\clariontutors\classes\classController.class
+com\clariontutors\classes\classes_professors.class
+com\clariontutors\classes\classes.class
+com\clariontutors\TutorsPlatformApplication.class
+com\clariontutors\classes\classes_professors_Repository.class
+com\clariontutors\classes\classes_Tutors_Repository.class
+com\clariontutors\users\userRepository.class
+com\clariontutors\users\userController.class
+com\clariontutors\classes\classesServices.class
+com\clariontutors\classes\classes_tutors.class
+com\clariontutors\users\userServices.class
