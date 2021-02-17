@@ -43,15 +43,15 @@ public class userController
 		}
 		
 		//update user through a put request
-		@RequestMapping(method = RequestMethod.PUT, value="/topics/")
+		@RequestMapping(method = RequestMethod.PUT, value="/users")
 		public void updateUser(@RequestBody user u)
 		{
 			userServer.updateUser(u);
 		}
 		
 		//Delete user through a delete request
-		@RequestMapping(method = RequestMethod.DELETE, value="/user/{id}")
-		public void deleteTopic(@PathVariable String id)
+		@RequestMapping(method = RequestMethod.DELETE, value="/users/{id}")
+		public void deleteUser(@PathVariable String id)
 		{
 			userServer.deleteUser(id);
 		}
