@@ -2,7 +2,7 @@
 This Spring Boot API is based on the PHP logic of the [Tutoring Platform](https://github.com/kareemfelfel/Tutoring_Platform)
 So, check the README file in the Tutoring Platform repository.
 
-##Testing:
+## Testing:
 1. To test this API, first thing you need to have is Postman to be able to send Post, update, delete, and get requests from the API easily using JSON objects.
 2. run the .jar in **TutorsPlatform > target > TutorsPlatform-0.0.1-SNAPSHOT.jar** using the java - jar command.
 3. Open postman and navigate to **localhost:8080/users/**
