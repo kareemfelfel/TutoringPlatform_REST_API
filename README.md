@@ -7,6 +7,7 @@ So, check the README file in the Tutoring Platform repository.
 2. run the .jar in **TutorsPlatform > target > TutorsPlatform-0.0.1-SNAPSHOT.jar** using the java - jar command.
 3. Open postman and navigate to **localhost:8080/users/**
 - Here you can Post an example of a user: 
+```
 {
     "id" : "14431",
     "firstName": "John",
@@ -16,8 +17,10 @@ So, check the README file in the Tutoring Platform repository.
     "is_professor" : 1,
     "email" : "testuser@yahoo.com"
 }
+```
 - Then, you can use the delete and get requests using the id at **localhost:8080/users/{id}**
 - To update a user: **localhost:8080/users/** then use appropriate put request
+```
 {
     "id" : "14431",
     "firstName": "Updated First Name",
@@ -27,12 +30,15 @@ So, check the README file in the Tutoring Platform repository.
     "is_professor" : 1,
     "email" : "testuser@yahoo.com"
 }
+```
 4. To add a class for an appropriate tutor or professor, navigate to **localhost:8080/users/tutors/{id}/classes** or **localhost:8080/users/professors/{id}/classes**
 - An example of a post request for an appropriate user:
+```
 {
     "class_id" : "2",
     "name": "CIS 403"
 }
+```
 - Then you can use the same **localhost:8080/users/tutors/{id}/classes** or **localhost:8080/users/professors/{id}/classes** for a get request.
 
 
